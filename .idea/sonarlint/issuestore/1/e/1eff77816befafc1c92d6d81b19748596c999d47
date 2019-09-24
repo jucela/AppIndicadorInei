@@ -1,0 +1,5 @@
+
+squid:S4165"eRemove this useless assignment; "context" already holds the assigned value along all execution paths.(ÕÜ–ıÿÿÿÿ
+Œsquid:S1319F"pThe type of the "datos" object should be an interface such as "List" rather than the implementation "ArrayList".(ÑÜÚ”üÿÿÿÿ
+ysquid:S1488&"bImmediately return this expression instead of assigning it to the temporary variable "viewHolder".(·Ë«™
+’squid:S1319"vThe type of the "indicadores" object should be an interface such as "List" rather than the implementation "ArrayList".(ñú…‰ûÿÿÿÿ

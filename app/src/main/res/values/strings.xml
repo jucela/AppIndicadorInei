@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">AppIndicadorInei</string>
+    <string name="app_name2">Indicador</string>
+    <string name="app_name3">Información</string>
+    <string name="app_name4">Buscar Indicador</string>
+    <string name="action_settings">Settings</string>
+    <string name="indicador_name1">Población</string>
+    <string name="indicador_name2">Censos Nacionales 2017</string>
+    <string name="indicador_name3">Pobreza y Programas Sociales</string>
+    <string name="indicador_name4">Educación</string>
+    <string name="indicador_name5">Salud</string>
+    <string name="indicador_name6">Vivienda y hogar</string>
+    <string name="indicador_name7">Acceso a servicios básicos</string>
+    <string name="indicador_name8">Empleo a nivel nacional</string>
+    <string name="indicador_name9">Empleo en el área urbana</string>
+    <string name="indicador_name10">Empleo e Ingreso en Lima Metropolitana</string>
+    <string name="indicador_name11">Gobernabilidad y democracia</string>
+    <string name="indicador_name12">Seguridad ciudadana</string>
+    <string name="indicador_name13">Actividades económicas</string>
+    <string name="indicador_name14">Producción</string>
+    <string name="indicador_name15">Inversión</string>
+    <string name="indicador_name16">Precios</string>
+    <string name="indicador_name17">Sector externo</string>
+    <string name="indicador_name18">Finanzas públicas</string>
+    <string name="indicador_name19">Monetario</string>
+    <string name="indicador_name20">Transporte</string>
+    <string name="indicador_name21">Turismo</string>
+
+    <string name="item_actualizar">Sincronizar</string>
+    <string name="item_information">Información</string>
+    <string name="item_pdf">Ver más...</string>
+    <string name="item_web">Página Web</string>
+    <string name="item_exit">Salir</string>
+    <string name="item_main">Menú Principal</string>
+    <string name="item_atras">Atras</string>
+    <string name="item_descarga">Descargar</string>
+    <string name="item_copiar">Copiar enlace</string>
+    <string name="item_navegador">Abrir Navegador</string>
+    <string name="item_facebook">Publicar</string>
+    <string name="item_imagen">Descargar Grafico</string>
+    <string name="item_excel">Descargar Excel</string>
+    <string name="title_activity_drawer_">Drawer_Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

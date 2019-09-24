@@ -1,0 +1,38 @@
+
+msquid:S001000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ Ö•8Ö¾ÒºÉ-
+"squid:ClassVariableVisibilityCheck"TMake num_dato a static final constant or non-public and provide accessors if needed.(¹óæœûÿÿÿÿ8ÁËÏºÉ-
+lsquid:S00100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÊİ"8Ö¾ÒºÉ-
+msquid:S001004"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼àñÍ8Ö¾ÒºÉ-
+rsquid:S00100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©öùÙşÿÿÿÿ8Ö¾ÒºÉ-
+fsquid:S00107"BConstructor has 10 parameters, which is greater than 7 authorized.(ôªÔ¸øÿÿÿÿ8…çÑºÉ-
+msquid:S00116"NRename this field "_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß³Æ8ƒñÃºÉ-
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôªÔ¸øÿÿÿÿ8…çÑºÉ-
+{squid:S00116"WRename this field "tipo_grafico" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×â÷Šùÿÿÿÿ8’·ÇºÉ-
+rsquid:S001008"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨¸ ûıÿÿÿÿ8Ö¾ÒºÉ-
+osquid:S00117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÊİ"8Ö¾ÒºÉ-
+msquid:S00100T"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úÈ•»8Ö¾ÒºÉ-
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôªÔ¸øÿÿÿÿ8…çÑºÉ-
+msquid:S00100X"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø‹Æ‡8Ö¾ÒºÉ-
+Š"squid:ClassVariableVisibilityCheck
+"PMake ejey a static final constant or non-public and provide accessors if needed.(Ê©¢ˆşÿÿÿÿ8“¹ÌºÉ-
+"squid:ClassVariableVisibilityCheck"[Make id_subindicador a static final constant or non-public and provide accessors if needed.(Òºàª8ƒñÃºÉ-
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôªÔ¸øÿÿÿÿ8…çÑºÉ-
+msquid:S00100,"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ış ü8Ö¾ÒºÉ-
+Š"squid:ClassVariableVisibilityCheck	"PMake ejex a static final constant or non-public and provide accessors if needed.(’ëƒÑüÿÿÿÿ8ŠüËºÉ-
+…"squid:ClassVariableVisibilityCheck"PMake dato a static final constant or non-public and provide accessors if needed.(ñı¦ş8¬ÑºÉ-
+usquid:S00117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©öùÙşÿÿÿÿ8Ö¾ÒºÉ-
+usquid:S001178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨¸ ûıÿÿÿÿ8Ö¾ÒºÉ-
+Œ"squid:ClassVariableVisibilityCheck"RMake medida a static final constant or non-public and provide accessors if needed.(ˆ”òøÿÿÿÿ8¬ÑºÉ-
+vsquid:S00116"WRename this field "id_indicador" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—“Š8ƒñÃºÉ-
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôªÔ¸øÿÿÿÿ8…çÑºÉ-
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôªÔ¸øÿÿÿÿ8…çÑºÉ-
+’"squid:ClassVariableVisibilityCheck"XMake tipo_grafico a static final constant or non-public and provide accessors if needed.(×â÷Šùÿÿÿÿ8’·ÇºÉ-
+psquid:S001170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ Ö•8Ö¾ÒºÉ-
+lsquid:S00100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ÃÊ8Ö¾ÒºÉ-
+„"squid:ClassVariableVisibilityCheck"OMake _id a static final constant or non-public and provide accessors if needed.(ß³Æ8ƒñÃºÉ-
+"squid:ClassVariableVisibilityCheck"XMake id_indicador a static final constant or non-public and provide accessors if needed.(—“Š8ƒñÃºÉ-
+…"squid:ClassVariableVisibilityCheck"PMake anio a static final constant or non-public and provide accessors if needed.(—íşã8Ú¦ÉºÉ-
+psquid:S00117X"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø‹Æ‡8Ö¾ÒºÉ-
+lsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éÆC8Ö¾ÒºÉ-
+ysquid:S00116"ZRename this field "id_subindicador" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òºàª8ƒñÃºÉ-
+wsquid:S00116"SRename this field "num_dato" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹óæœûÿÿÿÿ8ÁËÏºÉ-

@@ -1,0 +1,95 @@
+
+^squid:S1444";Make this "public static dataindicador_cp_anio" field final(›…Å›ıÿÿÿÿ8¬àÔ»É-
+xsquid:S3008"ZRename this field "indicador_cp_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·‡Å8ñ‰½»É-
+^squid:S1444 ";Make this "public static dataindicador_cp_ejex" field final(ƒğóşÿÿÿÿ8¬àÔ»É-
+£"squid:ClassVariableVisibilityCheck"iMake dataindicador_cp_id_indicador a static final constant or non-public and provide accessors if needed.(àœÄ¶úÿÿÿÿ8¬àÔ»É-
+]squid:S1444"?Make this "public static indicador_cp_id_indicador" field final(¢‡Ğº8ÛÒÅ»É-
+©"squid:ClassVariableVisibilityCheck"tMake subindicador_cp_descripcion_subindicador a static final constant or non-public and provide accessors if needed.(á‹Ù8ñ‘ÙÉ-
+Ssquid:S1444"5Make this "public static indicador_cp_id" field final(·‡Å8ñ‰½»É-
+ksquid:S1192("HDefine a constant instead of duplicating this literal " TEXT," 19 times.(áíÄ«ûÿÿÿÿ8ëÌğØÉ-
+”"squid:ClassVariableVisibilityCheck"_Make dataindicador_cp_id a static final constant or non-public and provide accessors if needed.(ö†šä8¬àÔ»É-
+bsquid:S1444""?Make this "public static dataindicador_cp_num_dato" field final(¿ Íùÿÿÿÿ8¬àÔ»É-
+[squid:S1444$"=Make this "public static dataindicador_cp_medida" field final(ğ€Û©8¬àÔ»É-
+˜"squid:ClassVariableVisibilityCheck"^Make subindicador_cp_id a static final constant or non-public and provide accessors if needed.( ÑŞ¸üÿÿÿÿ8¬àÔ»É-
+esquid:S1444"BMake this "public static subindicador_cp_id_indicador" field final(°îº¿ÿÿÿÿÿ8¬àÔ»É-
+ƒsquid:S3008 "`Rename this field "dataindicador_cp_ejex" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒğóşÿÿÿÿ8¬àÔ»É-
+•"squid:ClassVariableVisibilityCheck!"aMake dataindicador_cp_ejey a static final constant or non-public and provide accessors if needed.(úÛ¯b8¬àÔ»É-
+¤"squid:ClassVariableVisibilityCheck"oMake subindicador_cp_nombre_subindicador a static final constant or non-public and provide accessors if needed.(ŒÊ—Ñ8©šî»É-
+fsquid:S1444"CMake this "public static dataindicador_cp_id_indicador" field final(àœÄ¶úÿÿÿÿ8¬àÔ»É-
+›"squid:ClassVariableVisibilityCheck#"aMake dataindicador_cp_dato a static final constant or non-public and provide accessors if needed.(öÚËûùÿÿÿÿ8¬àÔ»É-
+lsquid:S1444"NMake this "public static subindicador_cp_descripcion_subindicador" field final(á‹Ù8ñ‘ÙÉ-
+Psquid:S1444"-Make this "public static DB_PATH" field final(ØõÁßüÿÿÿÿ8ÅÌ¥»É-
+"squid:ClassVariableVisibilityCheck"SMake DB_NAME a static final constant or non-public and provide accessors if needed.(·‹Øñûÿÿÿÿ8ÅÌ¥»É-
+¢"squid:ClassVariableVisibilityCheck"hMake subindicador_cp_id_indicador a static final constant or non-public and provide accessors if needed.(°îº¿ÿÿÿÿÿ8¬àÔ»É-
+zsquid:S3008"WRename this field "tb_indicador" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑÜÀøÿÿÿÿ8İà¨»É-
+~squid:S3008
+"[Rename this field "tb_dataindicador" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Íåßúÿÿÿÿ8Š±ª»É-
+‚squid:S3008"dRename this field "indicador_cp_id_indicador" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢‡Ğº8ÛÒÅ»É-
+"squid:ClassVariableVisibilityCheck	"[Make tb_subindicador a static final constant or non-public and provide accessors if needed.(¬¿•8Š±ª»É-
+š"squid:ClassVariableVisibilityCheck"eMake indicador_cp_id_indicador a static final constant or non-public and provide accessors if needed.(¢‡Ğº8ÛÒÅ»É-
+lsquid:S1192'"NDefine a constant instead of duplicating this literal "CREATE TABLE " 3 times.(¼â·ƒ8ë¡‚ÙÉ-
+"squid:ClassVariableVisibilityCheck"SMake DB_PATH a static final constant or non-public and provide accessors if needed.(ØõÁßüÿÿÿÿ8ÅÌ¥»É-
+‹squid:S3008"hRename this field "indicador_cp_nombre_indicador" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ‰¦ûÿÿÿÿ8Èƒè»É-
+£"squid:ClassVariableVisibilityCheck"nMake indicador_cp_descripcion_indicador a static final constant or non-public and provide accessors if needed.(ÒÂÁ8Èƒè»É-
+_squid:S1444"<Make this "public static subindicador_cp_fuente" field final(È¶“úÿÿÿÿ8¢İñ»É-
+}squid:S3008!"`Rename this field "dataindicador_cp_ejey" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úÛ¯b8¬àÔ»É-
+ƒsquid:S3008"`Rename this field "dataindicador_cp_anio" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›…Å›ıÿÿÿÿ8¬àÔ»É-
+[squid:S1444"8Make this "public static subindicador_cp_id" field final( ÑŞ¸üÿÿÿÿ8¬àÔ»É-
+"squid:ClassVariableVisibilityCheck"[Make indicador_cp_id a static final constant or non-public and provide accessors if needed.(·‡Å8ñ‰½»É-
+isquid:S1444"FMake this "public static dataindicador_cp_id_subindicador" field final(íñŠúÿÿÿÿ8¬àÔ»É-
+›"squid:ClassVariableVisibilityCheck"aMake dataindicador_cp_anio a static final constant or non-public and provide accessors if needed.(›…Å›ıÿÿÿÿ8¬àÔ»É-
+fsquid:S1444"CMake this "public static dataindicador_cp_tipo_grafico" field final(…ß»¨şÿÿÿÿ8¬àÔ»É-
+Šsquid:S3008"gRename this field "subindicador_cp_id_indicador" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°îº¿ÿÿÿÿÿ8¬àÔ»É-
+Wsquid:S1444"9Make this "public static dataindicador_cp_id" field final(ö†šä8¬àÔ»É-
+€squid:S3008$"bRename this field "dataindicador_cp_medida" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ€Û©8¬àÔ»É-
+£"squid:ClassVariableVisibilityCheck"iMake indicador_cp_nombre_indicador a static final constant or non-public and provide accessors if needed.(ÿ‰¦ûÿÿÿÿ8Èƒè»É-
+‡squid:S3008""dRename this field "dataindicador_cp_num_dato" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ Íùÿÿÿÿ8¬àÔ»É-
+ "squid:ClassVariableVisibilityCheck"kMake subindicador_cp_id_subindicador a static final constant or non-public and provide accessors if needed.(ÊÄ»8¬àÔ»É-
+Ÿ"squid:ClassVariableVisibilityCheck""eMake dataindicador_cp_num_dato a static final constant or non-public and provide accessors if needed.(¿ Íùÿÿÿÿ8¬àÔ»É-
+˜"squid:ClassVariableVisibilityCheck$"cMake dataindicador_cp_medida a static final constant or non-public and provide accessors if needed.(ğ€Û©8¬àÔ»É-
+@squid:S2386P"Make this member "protected".(²‚¹ûÿÿÿÿ8ÕáºÙÉ-
+œ"squid:ClassVariableVisibilityCheck"bMake subindicador_cp_fuente a static final constant or non-public and provide accessors if needed.(È¶“úÿÿÿÿ8¢İñ»É-
+]squid:S1118":Add a private constructor to hide the implicit public one.(ÌÀ¯“şÿÿÿÿ8ÅÌ¥»É-
+‰squid:S3008"kRename this field "indicador_cp_total_subdindicador" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌÄ™œ8ğÃè»É-
+fsquid:S1444"HMake this "public static indicador_cp_descripcion_indicador" field final(ÒÂÁ8Èƒè»É-
+gsquid:S1444"IMake this "public static subindicador_cp_nombre_subindicador" field final(ŒÊ—Ñ8©šî»É-
+isquid:S1192,"FDefine a constant instead of duplicating this literal " TEXT" 3 times.(‡İÙüÿÿÿÿ8ë¡‚ÙÉ-
+›"squid:ClassVariableVisibilityCheck "aMake dataindicador_cp_ejex a static final constant or non-public and provide accessors if needed.(ƒğóşÿÿÿÿ8¬àÔ»É-
+ˆsquid:S3008"jRename this field "subindicador_cp_id_subindicador" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊÄ»8¬àÔ»É-
+‹squid:S3008"mRename this field "indicador_cp_descripcion_indicador" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒÂÁ8Èƒè»É-
+‘squid:S3008"sRename this field "subindicador_cp_descripcion_subindicador" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á‹Ù8ñ‘ÙÉ-
+‹squid:S3008"hRename this field "dataindicador_cp_tipo_grafico" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…ß»¨şÿÿÿÿ8¬àÔ»É-
+|squid:S3008"^Rename this field "dataindicador_cp_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö†šä8¬àÔ»É-
+¢"squid:ClassVariableVisibilityCheck"hMake subindicador_cp_num_graficos a static final constant or non-public and provide accessors if needed.(—ç¯ûÿÿÿÿ8íò»É-
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‰Ú›
+dsquid:S1444"FMake this "public static indicador_cp_total_subdindicador" field final(ÌÄ™œ8ğÃè»É-
+€squid:S3008"]Rename this field "subindicador_cp_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ÑŞ¸üÿÿÿÿ8¬àÔ»É-
+Usquid:S1444"2Make this "public static tb_indicador" field final(ÑÜÀøÿÿÿÿ8İà¨»É-
+Šsquid:S3008"gRename this field "subindicador_cp_num_graficos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ç¯ûÿÿÿÿ8íò»É-
+ksquid:S1192"MDefine a constant instead of duplicating this literal "id_indicador" 3 times.(¢‡Ğº8¬àÔ»É-
+squid:S3008"kRename this field "dataindicador_cp_id_subindicador" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íñŠúÿÿÿÿ8¬àÔ»É-
+Œsquid:S3008"nRename this field "subindicador_cp_nombre_subindicador" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÊ—Ñ8©šî»É-
+xsquid:S3008	"ZRename this field "tb_subindicador" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬¿•8Š±ª»É-
+esquid:S1444"BMake this "public static subindicador_cp_num_graficos" field final(—ç¯ûÿÿÿÿ8íò»É-
+^squid:S1444#";Make this "public static dataindicador_cp_dato" field final(öÚËûùÿÿÿÿ8¬àÔ»É-
+£"squid:ClassVariableVisibilityCheck"iMake dataindicador_cp_tipo_grafico a static final constant or non-public and provide accessors if needed.(…ß»¨şÿÿÿÿ8¬àÔ»É-
+‹squid:S3008"hRename this field "dataindicador_cp_id_indicador" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àœÄ¶úÿÿÿÿ8¬àÔ»É-
+;squid:S2386Z"Make this member "protected".(¬ˆÜ™8‡õÈÙÉ-
+Xsquid:S1444!";Make this "public static dataindicador_cp_ejey" field final(úÛ¯b8¬àÔ»É-
+Ssquid:S1444	"5Make this "public static tb_subindicador" field final(¬¿•8Š±ª»É-
+–"squid:ClassVariableVisibilityCheck
+"\Make tb_dataindicador a static final constant or non-public and provide accessors if needed.(Íåßúÿÿÿÿ8Š±ª»É-
+csquid:S1444"EMake this "public static subindicador_cp_id_subindicador" field final(ÊÄ»8¬àÔ»É-
+Ysquid:S1444
+"6Make this "public static tb_dataindicador" field final(Íåßúÿÿÿÿ8Š±ª»É-
+usquid:S3008"RRename this field "DB_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·‹Øñûÿÿÿÿ8ÅÌ¥»É-
+fsquid:S1444"CMake this "public static indicador_cp_nombre_indicador" field final(ÿ‰¦ûÿÿÿÿ8Èƒè»É-
+’"squid:ClassVariableVisibilityCheck"XMake tb_indicador a static final constant or non-public and provide accessors if needed.(ÑÜÀøÿÿÿÿ8İà¨»É-
+¡"squid:ClassVariableVisibilityCheck"lMake indicador_cp_total_subdindicador a static final constant or non-public and provide accessors if needed.(ÌÄ™œ8ğÃè»É-
+„squid:S3008"aRename this field "subindicador_cp_fuente" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È¶“úÿÿÿÿ8¢İñ»É-
+usquid:S3008"RRename this field "DB_PATH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØõÁßüÿÿÿÿ8ÅÌ¥»É-
+ƒsquid:S3008#"`Rename this field "dataindicador_cp_dato" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÚËûùÿÿÿÿ8¬àÔ»É-
+Psquid:S1444"-Make this "public static DB_NAME" field final(·‹Øñûÿÿÿÿ8ÅÌ¥»É-
+¦"squid:ClassVariableVisibilityCheck"lMake dataindicador_cp_id_subindicador a static final constant or non-public and provide accessors if needed.(íñŠúÿÿÿÿ8¬àÔ»É-
+dsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(ØõÁßüÿÿÿÿ8ÅÌ¥»É-
+;squid:S2386H"Make this member "protected".(‚ñ™Ü8¤ö¤ÙÉ-

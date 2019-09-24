@@ -1,0 +1,31 @@
+
+"squid:ClassVariableVisibilityCheck"XMake id_indicador a static final constant or non-public and provide accessors if needed.(—“Š8™·ºÉ-
+msquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑŸ¬8ÔŠ­ºÉ-
+psquid:S00117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°À¥Æ8ïç«ºÉ-
+–"squid:ClassVariableVisibilityCheck"\Make nombre_indicador a static final constant or non-public and provide accessors if needed.(éÙÇŸşÿÿÿÿ8ÓÎ§ºÉ-
+rsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯èûÏùÿÿÿÿ8ÔŠ­ºÉ-
+rsquid:S00100)"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½½º“ûÿÿÿÿ8ÔŠ­ºÉ-
+psquid:S00117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°À¥Æ8ïç«ºÉ-
+lsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éÆC8ÔŠ­ºÉ-
+}squid:S00116"^Rename this field "total_subdindicador" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÖÕ8ÓÎ§ºÉ-
+msquid:S00116"NRename this field "_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß³Æ8°¢ºÉ-
+„"squid:ClassVariableVisibilityCheck"OMake _id a static final constant or non-public and provide accessors if needed.(ß³Æ8°¢ºÉ-
+squid:S00116"[Rename this field "nombre_indicador" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éÙÇŸşÿÿÿÿ8ÓÎ§ºÉ-
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑŸ¬8ÔŠ­ºÉ-
+rsquid:S00100-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚°×Ğùÿÿÿÿ8ÔŠ­ºÉ-
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©öùÙşÿÿÿÿ8ÔŠ­ºÉ-
+rsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©öùÙşÿÿÿÿ8ÔŠ­ºÉ-
+psquid:S00117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°À¥Æ8ïç«ºÉ-
+›"squid:ClassVariableVisibilityCheck"aMake descripcion_indicador a static final constant or non-public and provide accessors if needed.(â¶Û…úÿÿÿÿ8ÓÎ§ºÉ-
+usquid:S00117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚°×Ğùÿÿÿÿ8ÔŠ­ºÉ-
+rsquid:S00100%"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞÔ…Šûÿÿÿÿ8ÔŠ­ºÉ-
+psquid:S00117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°À¥Æ8ïç«ºÉ-
+vsquid:S00116"WRename this field "id_indicador" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—“Š8™·ºÉ-
+rsquid:S00100!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§”‹Îıÿÿÿÿ8ÔŠ­ºÉ-
+”"squid:ClassVariableVisibilityCheck"_Make total_subdindicador a static final constant or non-public and provide accessors if needed.(æÖÕ8ÓÎ§ºÉ-
+usquid:S00117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞÔ…Šûÿÿÿÿ8ÔŠ­ºÉ-
+„squid:S00116"`Rename this field "descripcion_indicador" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â¶Û…úÿÿÿÿ8ÓÎ§ºÉ-

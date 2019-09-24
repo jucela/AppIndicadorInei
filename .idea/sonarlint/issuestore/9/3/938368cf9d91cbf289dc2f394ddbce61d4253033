@@ -1,0 +1,12 @@
+
+nsquid:CommentedOutCodeLineI"<This block of commented-out lines of code should be removed.(í¤ïüÿÿÿÿ8êÊ•ˆÉ-
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Èµ¹©ýÿÿÿÿ
+vsquid:S00116"YRename this field "carview_icono1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(žïÄÃûÿÿÿÿ
+usquid:UselessImportCheck"JRemove this unused import 'com.google.android.material.snackbar.Snackbar'.(ë„ƒŠ8ï»ã¶É-
+Lsquid:S1905@"/Remove this unnecessary cast to "RecyclerView".(é‹ÂW8êÉ®‰É-
+Hsquid:S00108u")Either remove or fill this block of code.(ŽºÖ8ï†ŽˆÉ-
+„squid:UselessImportCheck"TRemove this unused import 'app.inei.appindicadorinei.adapters.ItemIndicadorAdapter'.(î¹þÓüÿÿÿÿ8–çŸˆÉ-
+P"squid:SwitchLastCaseIsDefaultChecku""Add a default case to this switch.(ŽºÖ
+nsquid:CommentedOutCodeLineG"<This block of commented-out lines of code should be removed.(ŠàÊäùÿÿÿÿ8êÊ•ˆÉ-
+nsquid:CommentedOutCodeLinev"<This block of commented-out lines of code should be removed.(ÚòÒ½ýÿÿÿÿ8ï†ŽˆÉ-
+bsquid:S1301u"KReplace this "switch" statement by "if" statements to increase readability.(ŽºÖ
