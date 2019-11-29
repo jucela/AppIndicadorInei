@@ -1,5 +1,9 @@
 package app.inei.appindicadorinei.modelo.pojos;
 
+import android.content.ContentValues;
+
+import app.inei.appindicadorinei.modelo.DAO.SQLConstantes;
+
 public class LeyendaSubIndicador {
     public int id;
     public int id_subindicador;
@@ -50,5 +54,14 @@ public class LeyendaSubIndicador {
 
     public void setNombre_nro_subindicador(String nombre_nro_subindicador) {
         this.nombre_nro_subindicador = nombre_nro_subindicador;
+    }
+
+    public ContentValues toValues(){
+        ContentValues contentValues = new ContentValues();
+        contentValues.put(SQLConstantes.leyendaindicador_cp_id,id);
+        contentValues.put(SQLConstantes.leyendaindicador_cp_id_subindicador,id_subindicador);
+        contentValues.put(SQLConstantes.leyendaindicador_cp_nro_subindicador,nro_subindicador);
+        contentValues.put(SQLConstantes.leyendaindicador_cp_nombre_nro_subindicador,nombre_nro_subindicador);
+        return contentValues;
     }
 }

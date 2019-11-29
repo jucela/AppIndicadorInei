@@ -1,7 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context="app.inei.appindicadorinei.MainActivity">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
         android:icon="@drawable/ic_more_vert_white_24dp"
@@ -10,10 +9,20 @@
         app:showAsAction="always">
         <menu>
             <item
-                android:id="@+id/action_settings"
+                android:id="@+id/id_item_actualizar"
+                android:icon="@drawable/ic_action_reload_black_18"
+                android:title="@string/item_actualizar"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/id_item_information"
                 android:icon="@drawable/ic_info_outline_black_24dp"
                 android:title="@string/item_information"
-                app:showAsAction="ifRoom"/>'
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/id_item_exit"
+                android:icon="@drawable/ic_highlight_off_black_24"
+                android:title="@string/item_exit"
+                app:showAsAction="ifRoom"/>
         </menu>
     </item>
 </menu>

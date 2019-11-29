@@ -43,6 +43,7 @@ public class Lista_M12_Fragment extends Fragment {
     Activity actividad;
     IComunicaFragments interfaceComunicaFragments;
     int id_indicador;
+    int nro_grafico;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -83,9 +84,9 @@ public class Lista_M12_Fragment extends Fragment {
 
         Bundle datos = getActivity().getIntent().getExtras();
         if(datos!=null)
-        {id_indicador= datos.getInt("id",0);
-        Log.i("valor_size",""+filtrarNroSubindicador(obtenerDataNroSubIndicadoresXId(4)).size());
-        Log.i("valores",""+filtrarNroSubindicador(obtenerDataNroSubIndicadoresXId(4)).get(3).getEjex());}
+        { id_indicador = datos.getInt("id",0);
+          nro_grafico  = datos.getInt("nro_grafico",0);
+        }
 
 
 
@@ -99,19 +100,14 @@ public class Lista_M12_Fragment extends Fragment {
         View vista=inflater.inflate(R.layout.fragment_data_m12_lista, container, false);
         recyclerView = (RecyclerView) vista.findViewById(R.id.lista_item_m12);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getContext());
-        ItemListaM12Adapter itemListaM12Adapter = new ItemListaM12Adapter(filtrarEjeX(obtenerDataEjeXSubIndicadoresXId(id_indicador)), new ItemListaM12Adapter.OnItemClickListener() {
+        ItemListaM12Adapter itemListaM12Adapter = new ItemListaM12Adapter(filtrarEjeX(obtenerDataEjeXSubIndicadoresXIdNumero(id_indicador,nro_grafico)), new ItemListaM12Adapter.OnItemClickListener() {
             @Override
             public void onItemClick(View view, int position) {
-                Log.i("id_array_fragmentList",""+position);
-                //Toast.makeText(getContext(),"POSICION:"+position,Toast.LENGTH_SHORT).show();
-                interfaceComunicaFragments.enviarDatos(position);
+                interfaceComunicaFragments.enviarDatos(position,nro_grafico);
             }
         });
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(itemListaM12Adapter);
-
-//        String myValue = this.getArguments().getString("message");
-        Log.i("valor",""+obtenerDataNroSubIndicadoresXId(id_indicador));
         return vista;
     }
 
@@ -127,12 +123,6 @@ public class Lista_M12_Fragment extends Fragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-//        if (context instanceof OnFragmentInteractionListener) {
-//            mListener = (OnFragmentInteractionListener) context;
-//        } else {
-//            throw new RuntimeException(context.toString()
-//                    + " must implement OnFragmentInteractionListener");
-//        }
         if(context instanceof Activity){
             this.actividad= (Activity) context;
             interfaceComunicaFragments= (IComunicaFragments) this.actividad;
@@ -163,6 +153,9 @@ public class Lista_M12_Fragment extends Fragment {
      * >Communicating with Other Fragments</a> for more information.
      */
     public interface OnFragmentInteractionListener {
+        //METODO GENERAR DATA 2
+        void enviarDatos(int nro_subindicador,int nro_grafico);
+
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }
@@ -202,14 +195,14 @@ public class Lista_M12_Fragment extends Fragment {
         }
 
 
-    public ArrayList<String> obtenerDataEjeXSubIndicadoresXId(int id_subindicador )
+    public ArrayList<String> obtenerDataEjeXSubIndicadoresXIdNumero(int id_subindicador ,int nro_grafico)
     {   ArrayList<DataIndicador> datossubindicador = new ArrayList<>();
         ArrayList<String> EjeX = new ArrayList<>();
         String ejex="";
         try {
             Data data = new Data(getContext());
             data.open();
-            datossubindicador = data.getDataSubIndicadorXId(id_subindicador);
+            datossubindicador = data.getDataSubIndicadorXIdNumero(id_subindicador,nro_grafico);
 
             for (int i=0;i<datossubindicador.size();i++)
             {
@@ -225,89 +218,4 @@ public class Lista_M12_Fragment extends Fragment {
 
     }
 
-//    public ArrayList<Integer> obtenerDataNroSubIndicadoresXId(int id_subindicador )
-//    {   ArrayList<DataIndicador> datossubindicador = new ArrayList<>();
-//        ArrayList<Integer> Numeros= new ArrayList<>();
-//        int numero=0;
-//        try {
-//            Data data = new Data(getContext());
-//            data.open();
-//            datossubindicador = data.getDataSubIndicadorXId(id_subindicador);
-//
-//            for (int i=0;i<datossubindicador.size();i++)
-//            {
-//                numero = datossubindicador.get(i).getNro_subindicador();
-//                Numeros.add(numero);
-//            }
-//            data.close();
-//        }
-//        catch (IOException e){
-//            e.printStackTrace();
-//        }
-//        return  Numeros;
-//
-//    }
-//
-//    public ArrayList<Integer> filtrarNroSubindicador(ArrayList<Integer> lista) {
-//        ArrayList<Integer> nuevaLista = new ArrayList<>();
-//        if (lista.size() > 0) {
-//
-//            if (lista.get(0)==null) {
-//                for (Integer objeto : lista) {
-//                    if (!nuevaLista.contains(objeto))
-//                        nuevaLista.add(objeto);
-//                }
-//            } else {
-//                for (Integer objeto : lista) {
-//                    if (!nuevaLista.contains(objeto))
-//                        nuevaLista.add(objeto);
-//                }
-//            }
-//        } else {
-//        }
-//        return nuevaLista;
-//    }
-
-    public ArrayList<DataIndicador> obtenerDataNroSubIndicadoresXId(int id_subindicador )
-    {   ArrayList<DataIndicador> datossubindicador = new ArrayList<>();
-        ArrayList<DataIndicador> Numeros= new ArrayList<>();
-        DataIndicador numero = new DataIndicador();
-        try {
-            Data data = new Data(getContext());
-            data.open();
-            datossubindicador = data.getDataSubIndicadorXId(id_subindicador);
-
-            for (int i=0;i<datossubindicador.size();i++)
-            {
-                numero = datossubindicador.get(i);
-                Numeros.add(numero);
-            }
-            data.close();
-        }
-        catch (IOException e){
-            e.printStackTrace();
-        }
-        return  Numeros;
-
-    }
-
-    public ArrayList<NroSubindicador> filtrarNroSubindicador(ArrayList<DataIndicador> lista) {
-        ArrayList<NroSubindicador> nuevaLista = new ArrayList<>();
-        if (lista.size() > 0) {
-
-            if (lista.get(0)==null) {
-                for (DataIndicador objeto : lista) {
-                    if (!nuevaLista.contains(objeto.getNro_subindicador()))
-                     nuevaLista.add(new NroSubindicador(objeto.getNro_subindicador(),objeto.getEjex()));
-                }
-            } else {
-                for (DataIndicador objeto : lista) {
-                    if (!nuevaLista.contains(objeto.getNro_subindicador()))
-                        nuevaLista.add(new NroSubindicador(objeto.getNro_subindicador(),objeto.getEjex()));
-                }
-            }
-        } else {
-        }
-        return nuevaLista;
-    }
 }

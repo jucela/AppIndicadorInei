@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="app.inei.appindicadorinei">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:debuggable="false"
+        android:icon="@drawable/logo_app"
+        android:label="@string/app_name_icono"
+        android:roundIcon="@drawable/logo_app"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="HardcodedDebugMode">
         <activity
-            android:name=".activities.Main_Activity"
-            android:label="@string/app_name"
+            android:name=".activities.Inicio_Activity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,97 +28,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.Indicador_Data_M8_M2_Activity"
+            android:name=".activities.Home_Activity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:label="@string/app_name_icono"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustNothing|stateAlwaysHidden"/>
+        <activity
+            android:name=".activities.Indicador_Data_Tabular2_Activity"
             android:label="@string/app_name3"
             android:parentActivityName=".activities.Indicador_Search_Activity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activities.Indicador_Data_M7_M2_Activity"
-            android:label="@string/app_name3"
-            android:parentActivityName=".activities.Indicador_Search_Activity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activities.Indicador_Data_M3_M2_Activity"
-            android:label="@string/app_name3"
-            android:parentActivityName=".activities.Indicador_Search_Activity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activities.Indicador_Data_M6_M2_Activity"
-            android:label="@string/app_name3"
-            android:parentActivityName=".activities.Indicador_Search_Activity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activities.Indicador_Data_M5_M2_Activity"
-            android:label="@string/app_name3"
-            android:parentActivityName=".activities.Indicador_Search_Activity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activities.Indicador_Data_M2_M4_Activity"
-            android:label="@string/app_name3"
-            android:parentActivityName=".activities.Indicador_Search_Activity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activities.Indicador_Data_M2_M2_Activity"
-            android:label="@string/app_name3"
-            android:parentActivityName=".activities.Indicador_Search_Activity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activities.Indicador_Data_M1_M1_Activity"
-            android:label="@string/app_name3"
-            android:parentActivityName=".activities.Indicador_Search_Activity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activities.Indicador_Data_M3_M5_Activity"
-            android:label="@string/app_name3"
-            android:parentActivityName=".activities.Indicador_Search_Activity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activities.Indicador_Data_M3_M9_Activity"
-            android:label="@string/app_name3"
-            android:parentActivityName=".activities.Indicador_Search_Activity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activities.Indicador_Data_M11_Activity"
-            android:label="@string/app_name3"
-            android:parentActivityName=".activities.Indicador_Search_Activity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activities.Indicador_Data_M10_Activity"
-            android:label="@string/app_name3"
-            android:parentActivityName=".activities.Indicador_Search_Activity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activities.Indicador_Data_M8_Activity"
-            android:label="@string/app_name3"
-            android:parentActivityName=".activities.Indicador_Search_Activity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-        android:name=".activities.Indicador_Data_M7_Activity"
-        android:label="@string/app_name3"
-        android:parentActivityName=".activities.Indicador_Search_Activity"
-        android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activities.Indicador_Data_M6_Activity"
-            android:label="@string/app_name3"
-            android:parentActivityName=".activities.Indicador_Search_Activity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activities.Indicador_Data_M5_Activity"
-            android:label="@string/app_name3"
-            android:parentActivityName=".activities.Indicador_Search_Activity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activities.Indicador_Data_M3_Activity"
-            android:label="@string/app_name3"
-            android:parentActivityName=".activities.Indicador_Search_Activity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activities.Indicador_Data_M2_Activity"
-            android:label="@string/app_name3"
-            android:parentActivityName=".activities.Indicador_Search_Activity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activities.Indicador_Data_M1_Activity"
+            android:name=".activities.Indicador_Data_Tabular_Activity"
             android:label="@string/app_name3"
             android:parentActivityName=".activities.Indicador_Search_Activity"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -121,19 +51,14 @@
         <activity
             android:name=".activities.Search_Activity"
             android:label="@string/app_name4"
-            android:parentActivityName=".activities.Main_Activity"
+            android:parentActivityName=".activities.Home_Activity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".activities.Indicador_Search_Activity"
             android:label="@string/app_name2"
-            android:parentActivityName=".activities.Main_Activity"
+            android:parentActivityName=".activities.Home_Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activities.Home_Activity"
-            android:configChanges="screenSize|orientation|keyboardHidden"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+
     </application>
 
 </manifest>

@@ -1,5 +1,9 @@
 package app.inei.appindicadorinei.modelo.pojos;
 
+import android.content.ContentValues;
+
+import app.inei.appindicadorinei.modelo.DAO.SQLConstantes;
+
 public class SubIndicador {
     public int id_subindicador;
     public int id_indicador;
@@ -72,6 +76,17 @@ public class SubIndicador {
 
     public void setTotal_graficos(int total_graficos) {
         this.total_graficos = total_graficos;
+    }
+
+    public ContentValues toValues(){
+        ContentValues contentValues = new ContentValues();
+        contentValues.put(SQLConstantes.subindicador_cp_id_subindicador,id_subindicador);
+        contentValues.put(SQLConstantes.subindicador_cp_id_indicador,id_indicador);
+        contentValues.put(SQLConstantes.subindicador_cp_nombre_subindicador,nombre_subindicador);
+        contentValues.put(SQLConstantes.subindicador_cp_descripcion_subindicador,descripcion_subindicador);
+        contentValues.put(SQLConstantes.subindicador_cp_fuente,fuente);
+        contentValues.put(SQLConstantes.subindicador_cp_total_graficos,total_graficos);
+        return contentValues;
     }
 
 

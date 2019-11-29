@@ -9,9 +9,17 @@
             android:icon="@drawable/ic_home_18dp_black"
             android:title="Inicio" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_search"
             android:icon="@drawable/ic_search_18dp_black"
             android:title="Buscar" />
+        <item
+            android:id="@+id/nav_sincronizar"
+            android:icon="@drawable/ic_action_reload_black_18"
+            android:title="Sincronizar" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_highlight_off_black_24"
+            android:title="Salir" />
     </group>
 
 

@@ -21,7 +21,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 import app.inei.appindicadorinei.R;
-import app.inei.appindicadorinei.activities.Home_Activity;
 import app.inei.appindicadorinei.activities.Indicador_Search_Activity;
 import app.inei.appindicadorinei.activities.Search_Activity;
 import app.inei.appindicadorinei.adapters.ItemHomeAdapter;
@@ -62,7 +61,6 @@ public class Home_Fragment extends Fragment {
         recyclerView.setHasFixedSize(true);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(context);
         itemHomeAdapter = new ItemHomeAdapter(obtenerAllIndicador(),new ItemHomeAdapter.OnItemClickListener(){
-
             @Override
             public void onItemClick(View view, int position) {
                 //Toast.makeText(getApplicationContext(),"posiciòn:"+position,Toast.LENGTH_SHORT).show();

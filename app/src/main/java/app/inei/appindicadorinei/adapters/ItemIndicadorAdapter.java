@@ -46,7 +46,7 @@ public class ItemIndicadorAdapter extends RecyclerView.Adapter<ItemIndicadorAdap
         viewHolder.cv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                onItemClickListener.onItemClick(view,subindicador.id_subindicador);
+                onItemClickListener.onItemClick(view,subindicador.getId_subindicador());
             }
         });
 

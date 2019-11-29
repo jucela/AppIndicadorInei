@@ -21,4 +21,9 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="nav_header_vertical_spacing">8dp</dimen>
     <dimen name="nav_header_height">250dp</dimen>
+
+    <dimen name="size_cardview_data">360dp</dimen>
+    <dimen name="size_cardview_data2">
+        0dp</dimen>
+
 </resources>
